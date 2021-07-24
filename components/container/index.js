@@ -1,16 +1,10 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-// import { useState, useEffect } from 'react';
 
 import Footer from '../footer';
 import Nav from '../nav';
 
 export default function Container(props) {
-  // const [mounted, setMounted] = useState(false);
-
-  // // After mounting, we have access to the theme
-  // useEffect(() => setMounted(true), []);
-
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {

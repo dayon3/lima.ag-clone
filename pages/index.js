@@ -1,10 +1,10 @@
-import Container from '../components/container';
-import Hero from '../components/hero';
-import About from '../components/about';
-import WhyLima from '../components/why-lima';
-import Reach from '../components/reach';
-import Partners from '../components/partners';
-import Contact from '../components/contact-us';
+import Container from '@/components/container';
+import Hero from '@/components/hero';
+import About from '@/components/about';
+import WhyLima from '@/components/why-lima';
+import Reach from '@/components/reach';
+import Partners from '@/components/partners';
+import Contact from '@/components/contact-us';
 
 export default function Home() {
   return (
