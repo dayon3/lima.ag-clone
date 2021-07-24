@@ -26,7 +26,7 @@ export default function Nav() {
 
   return (
     <nav className={navbar ? 'nav active transition-all shadow' : 'nav'}>
-      <a href="#skip" className="sr-only">
+      <a href="#skip" className="skip-nav">
         Skip to content
       </a>
       <Image
@@ -36,10 +36,10 @@ export default function Nav() {
         alt="Lima Labs Logo"
         placeholder="blur"
       />
-      <div>
+      <div className="hidden lg:block">
         <NextLink href="#about">
           <a
-            className={`text-lg p-1 sm:p-4 font-semibold ${
+            className={`text-lg p-1 sm:p-4 ${
               navbar ? 'text-gray-600' : 'text-white'
             }`}
           >
@@ -48,7 +48,7 @@ export default function Nav() {
         </NextLink>
         <NextLink href="#why-lima">
           <a
-            className={`text-lg p-1 sm:p-4 font-semibold ${
+            className={`text-lg p-1 sm:p-4 ${
               navbar ? 'text-gray-600' : 'text-white'
             }`}
           >
@@ -57,7 +57,7 @@ export default function Nav() {
         </NextLink>
         <NextLink href="#our-reach">
           <a
-            className={`text-lg p-1 sm:p-4 font-semibold ${
+            className={`text-lg p-1 sm:p-4 ${
               navbar ? 'text-gray-600' : 'text-white'
             }`}
           >
@@ -66,7 +66,7 @@ export default function Nav() {
         </NextLink>
         <NextLink href="#partners">
           <a
-            className={`text-lg p-1 sm:p-4 font-semibold ${
+            className={`text-lg p-1 sm:p-4 ${
               navbar ? 'text-gray-600' : 'text-white'
             }`}
           >
@@ -75,7 +75,7 @@ export default function Nav() {
         </NextLink>
         <NextLink href="#careers">
           <a
-            className={`text-lg p-1 sm:p-4 font-semibold ${
+            className={`text-lg p-1 sm:p-4 ${
               navbar ? 'text-gray-600' : 'text-white'
             }`}
           >
@@ -84,7 +84,7 @@ export default function Nav() {
         </NextLink>
         <NextLink href="#contact-us">
           <a
-            className={`text-lg p-1 sm:p-4 font-semibold ${
+            className={`text-lg p-1 sm:p-4 ${
               navbar ? 'text-gray-600' : 'text-white'
             }`}
           >

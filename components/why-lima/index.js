@@ -2,11 +2,11 @@ import Feature from './feature';
 
 export default function WhyLima() {
   return (
-    <section className="py-[6%] px-8">
+    <section className="py-[6%] px-4 lg:px-8">
       <h2 className="text-black text-center text-5xl font-bold pb-6">
         Why Lima?
       </h2>
-      <div className="flex flex-wrap justify-center">
+      <div className="w-full flex flex-wrap justify-center">
         <Feature
           src="/images/icons/agritech.svg"
           title="Green Challenges"

@@ -1,8 +1,8 @@
 export default function Hero() {
   return (
     <section className="hero md:p-12 flex justify-center">
-      <div className="mx-auto w-1/3 self-center">
-        <h1 className="leading-tight text-7xl text-white font-black">
+      <div className="mx-auto text-center sm:text-left w-full sm:w-2/4 self-center">
+        <h1 className="leading-normal text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-white font-black mb-6">
           We bring precision to agriculture.
         </h1>
         <a
@@ -12,9 +12,9 @@ export default function Hero() {
           Let's Grow Together
         </a>
       </div>
-      <a href="#about">
+      {/* <a href="#about">
         Learn More <br />
-      </a>
+      </a> */}
     </section>
   );
 }
