@@ -3,7 +3,7 @@ import Feature from './feature';
 export default function WhyLima() {
   return (
     <section className="py-[6%] px-4 lg:px-8">
-      <h2 className="text-black text-center text-5xl font-bold pb-6">
+      <h2 className="text-black text-center text-5xl font-bold pb-10">
         Why Lima?
       </h2>
       <div className="w-full flex flex-wrap justify-center">
