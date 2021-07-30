@@ -82,6 +82,19 @@ body::-webkit-scrollbar-thumb {
     url(../public/images/harvest-tractors.jpg);
 }
 
+.ct-btn-scroll {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 500px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
 .nav-links {
   transition: all 0.3s ease-out;
   color: rgba(55, 65, 81);
