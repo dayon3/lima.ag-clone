@@ -16,13 +16,13 @@ export default function Home() {
         <div id="about" className="">
           <About />
         </div>
-        <div id="why-lima" className="px-10">
+        <div id="why-lima" className="px-2 md:px-10">
           <WhyLima />
         </div>
-        <div id="reach" style={{ height: 'fit-content' }}>
+        <div id="our-reach" style={{ height: 'fit-content' }}>
           <Reach />
         </div>
-        <div id="partners" className="px-10">
+        <div id="partners" className="px-2 md:px-10">
           <Partners />
         </div>
         <div id="contact-us">

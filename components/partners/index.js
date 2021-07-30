@@ -16,13 +16,13 @@ export default function Partners() {
         </p>
       </div>
       <div className="w-full lg:w-1/2 flex lg:flex-wrap">
-        <div className="w-1/2">
+        <div className="w-1/2 flex justify-center">
           <Image src={kairos} width={150} height={150} alt="Kairos Society" />
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 flex justify-center">
           <Image src={climateKIC} width={150} height={150} alt="Climate KIC" />
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 flex justify-center">
           <Image
             src={kenyaCIC}
             width={150}
@@ -30,7 +30,7 @@ export default function Partners() {
             alt="Kenya Climate Innovation Center"
           />
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 flex justify-center">
           <Image src={thinkIt} width={150} height={150} alt="Think it" />
         </div>
       </div>
