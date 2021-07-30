@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <section className="hero md:p-12 flex justify-center">
@@ -12,6 +14,15 @@ export default function Hero() {
           Let's Grow Together
         </a>
       </div>
+
+      <a className="ct-btn-scroll text-center" href="#about">
+        <Image
+          width={40}
+          height={40}
+          alt="Arrow Down Icon"
+          src="/images/icons/arrow-down.png"
+        />
+      </a>
       {/* <a href="#about">
         Learn More <br />
       </a> */}
