@@ -30,4 +30,4 @@ Finally run the `yarn dev` command to start the development server:
 yarn dev
 ```
 
-Visit the url `localhost:3000` to view the site.
+Visit the url `localhost:3000` on your browser to view the site.
