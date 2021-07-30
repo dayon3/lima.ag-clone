@@ -10,7 +10,7 @@ export default function Container(props) {
   const meta = {
     title: 'Lima Labs | Know More, Grow More',
     description: `Lima is home to diverse and bright-minded individuals in Kenya and Tunisia. We aim to impact livelihoods by bringing new age technologies to agriculture.`,
-    image: 'https://lima-ag-clone.vercel.app/static/images/ogImageBanner.png',
+    image: 'https://lima-ag-clone.vercel.app/images/ogImageBanner.png',
     type: 'website',
     ...customMeta
   };
