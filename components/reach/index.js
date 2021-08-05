@@ -1,7 +1,7 @@
 export default function Reach() {
   return (
     <section className="py-[6%] px-8 bg-fixed bg-center bg-cover custom-img">
-      <h2 className="text-white text-center text-5xl font-bold pb-8 md:pb-14 lg:pb-20">
+      <h2 className="text-white text-center text-3xl sm:text-4xl md:text-5xl font-bold pb-8 md:pb-14 lg:pb-20">
         Our Reach
       </h2>
       <div className="flex flex-wrap items-center text-white py-8 text-center">

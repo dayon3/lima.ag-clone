@@ -9,7 +9,9 @@ export default function Partners() {
   return (
     <section className="flex flex-col lg:flex-row justify-between items-center py-[2%] lg:px-8 mx-auto">
       <div className="lg:w-1/2 p-4 lg:pr-20 text-center md:text-left">
-        <h2 className="text-black text-5xl font-bold pb-8">Our Partners</h2>
+        <h2 className="text-black text-3xl sm:text-4xl md:text-5xl font-bold pb-8">
+          Our Partners
+        </h2>
         <p className="text-lg text-gray-700">
           We work with a dedicated team of established partners, advisors and
           global heavy weights to bring the best services to you.

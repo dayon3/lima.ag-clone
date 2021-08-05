@@ -30,7 +30,7 @@ html {
   flex-direction: column;
   min-height: 100vh;
   @apply bg-white;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 /* custom scrollbar */
@@ -145,7 +145,7 @@ body::-webkit-scrollbar-thumb {
 .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: rgba(55, 65, 81);
+  background-color: rgb(144, 164, 194);
   /* border-radius: 4px; */
   position: absolute;
   transition-property: transform;
