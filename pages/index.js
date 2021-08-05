@@ -13,7 +13,7 @@ export default function Home() {
         <div className="h-screen">
           <Hero />
         </div>
-        <div id="about" className="">
+        <div className="">
           <About />
         </div>
         <div id="why-lima" className="px-2 md:px-10">

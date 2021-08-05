@@ -4,12 +4,17 @@ import limaTriWhite from '../../public/images/lima-tri-white.png';
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center lg:flex-row lg:justify-between w-full bg-[#2c2d2d] py-[6%] px-8">
+    <section
+      id="about"
+      className="flex flex-col items-center lg:flex-row lg:justify-between w-full bg-[#2c2d2d] py-[6%] px-8"
+    >
       <div className="w-full pb-10 lg:pb-0 lg:w-2/5 flex justify-center">
         <Image src={limaTriWhite} width={380} height={360} placeholder="blur" />
       </div>
       <div className="w-full lg:w-3/5 text-white lg:pl-5 p-2 text-center lg:text-left">
-        <h2 className="font-bold text-5xl pb-10">We automate human sight.</h2>
+        <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl pb-10">
+          We automate human sight.
+        </h2>
         <p className="text-lg pb-5">
           Lima wants to empower farms and the teams that nurture them with data
           driven decision making.

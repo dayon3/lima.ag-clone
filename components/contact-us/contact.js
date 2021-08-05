@@ -5,7 +5,9 @@ export default function Contact() {
     <div className="bg-[#2c2d2d] w-full lg:w-1/2 p-8 text-white">
       <div className="max-w-md mx-auto">
         {/* after:w-[80px] after:h-1 after:bg-white after:block after:relative after:mt-2 */}
-        <h2 className="text-4xl font-bold pb-8 text-center ">Get In Touch</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold pb-8 text-center ">
+          Get In Touch
+        </h2>
         <div>
           <div className="flex items-center justify-between py-3">
             <Image src="/images/icons/map-pin.svg" width={32} height={32} />
